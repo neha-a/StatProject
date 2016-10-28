@@ -1,0 +1,46 @@
+---
+title: "Project Proposal"
+author: "Neha Ashtekar, Sfurti Ruge"
+date: "October 23, 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+------------------------------------------------------------------------------
+
+**1. Citation information for the paper you want to reproduce**
+
+Choi SJ, Lee SI, Joo EY (2016) Habitual Alcohol Consumption and Metabolic Syndrome in Patients with Sleep Disordered Breathing. PLoS ONE 11(8): e0161276. doi:10.1371/journal.pone.0161276
+
+**2. Link to the paper where we can access a PDF of the article**
+
+[Click Here - Article Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0161276)
+
+**3. Direct link to the data repository**
+
+[Click Here - Data repository link](https://figshare.com/articles/Habitual_Alcohol_Consumption_and_Metabolic_Syndrome_in_Patients_with_Sleep_Disordered_Breathing/3712626)
+
+**4. List of descriptive statistics and/or plots presented in the paper that you know you can replicate from the dataset available (these may be presented in text or tables and can include sample size and participant characteristics for human subjects research like age, gender, race/ethnicity of participants, etc.) (bullet points here are fine)**
+
+a) Descriptive statistics of mean±SD and number (percentage) (Table 1).
+b) Barplot to display the above mentioned statistics (Fig 1).
+c) Results of the logistic regression analysis will be reported as adjusted odds ratio (OR) with 95% confidence interval (CI).
+
+**5. List of the analyses/results in the paper that are based on the general linear model (t-tests, linear regression, Analysis of Variance) (bullet points here are fine)**
+
+a) Analyze normally distributed continuous data using one-way analysis of variance (ANOVA).
+b) Analyze Categorical variables using the Chi-square test.
+c) Evaluate skewed data using the Kruskal-Wallis test (To be discussed).
+d) Examine the association between HAC and severe SDB after adjusting for possible confounders (age and BMI), conduct univariate and multiple logistic regression analysis.
+e) Perform a multiple logistic regression analysis to examine the association between HAC and MetS after adjusting for possible confounders (age, AHI, and BMI). 
+f) Evaluate the effect of both HAC and SDB on development of MetS, interaction analysis was performed using multiple regression.
+g) We will try to perform the multiple logistic regerssion analysis for atleast two of them( mostly d and e from the above mentioned points).
+
+**6. Propose at least one additional plot you think would be helpful to better understand or illustrate findings presented in the paper.**
+
+Scatter plot (ggplot2 - geom_point) to display the logistic regression analysis.
+
+------------------------------------------------------------------------------
